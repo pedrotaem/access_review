@@ -1,13 +1,13 @@
 class Balance {
-  income: number;
+  useraccounts: number;
 
-  outcome: number;
+  serviceaccounts: number;
 
   total: number;
 
-  constructor({ income, outcome, total }: Balance) {
-    this.income = income;
-    this.outcome = outcome;
+  constructor({ useraccounts, serviceaccounts, total }: Balance) {
+    this.useraccounts = useraccounts;
+    this.serviceaccounts = serviceaccounts;
     this.total = total;
   }
 }
